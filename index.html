@@ -1,1 +1,169 @@
 
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title></title>
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.0/css/materialize.min.css"  media="screen,projection"/>
+
+        <!-- Local CSS -->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        
+        <!-- Local JavaScript -->
+        <script src="assets/javascript/script.js"></script>
+        
+    </head>
+    <body>
+        <header>
+            <ul>
+                <li class="left"><a href="#about">About</a></li>
+                <li class="left"><a href="#projects">Projects</a></li>
+                <li class="left"><a href="#contact">Contact</a></li>
+            </ul>
+        </header>
+        <div class="container">
+            <div class="divider"></div>
+            <div class="section" id="head">
+                <div class="row">
+                    <div class="col s12 m6 offset-m1 l2 offset-l5 xl2 offset-xl5" id="image">
+                        <img class="responsive-img circle" src="assets/images/Jaycen.jpg">
+                    </div> <!-- END IMAGE -->
+                </div> <!-- END ROW -->
+                <div class="row">
+                    <div class="col s12 m12 l12 xl12" id="name">
+                        <h3>Jaycen Milling</h3>
+                        <hr class="hrStyle">
+                        <p> Front End Developer</p>
+                    </div>
+                </div>
+            </div><!-- END HEAD -->
+            <div class="divider"></div>
+            <div class="section" id="projects">
+                <h5>Projects</h5>
+                <div class="row">
+                    <div class="col s12 m12 l4 xl4 card-panel hoverable">
+                        <div class="card-image">
+                            <img src="assets/images/Night_By_Night.jpg">
+                        </div>
+                        <div class="card-content">
+                            <p>
+                                A Group project with Andy Bonner and Michael Dinh. A go-to site for star gazers to stay up to date on astronomical events. 
+                            </p>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://mkdinh.github.io/Night-by-Night/index.html">Night By Night</a>
+                        </div>
+                    </div>
+                    <div class="col s12 m12 l4 xl4 card-panel hoverable">
+                        <div class="card-image">
+                            <img src="assets/images/JavaScript_Project.jpg">
+                        </div>
+                        <div class="card-content">
+                            <p>
+                                A simple JavaScript keyboard input drum kit. <br> Uses the a, s, d, f, g, h, j, and k keys to play sounds that have been associated with each key.
+                            </p>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://jaycen9887.github.io/JS_Drum_Kit_Final/">Drum Kit</a>
+                        </div>
+                    </div>
+                    <div class="col s12 m12 l4 xl4 card-panel hoverable">
+                        <div class="card-image">
+                            <img src="assets/images/Hangman_Project.jpg">
+                        </div>
+                        <div class="card-content">
+                            <p>
+                                Taking it back to the 90's!  <br>A fun 90's Cartoon Themed Hangman Game. Let's see if you remember these classics!
+                            </p>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://jaycen9887.github.io/Hangman-Game/">Hangman</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="section" id="about">
+                <div class="row">
+                    <div class="col s12 m12 l12 xl12 ">
+                        <h5>A little about me!</h5> 
+                        <p>
+                            I've always been intrigued with how we communicate with computers and how fast technology evolves, just to think how far computers and the internet have come since the 60's is absolutely astonishing! 
+                        </p>
+                        <p>    
+                            I became facinated with computers when I was in high school. My senior year I went back to school two weeks early to help out in the computer lab. Classmates even paid me to upgrade their Myspace pages for them once they started allowing users to enter their own HTML. I guess that was my first, under the table, Front End job.  
+                        </p>
+
+                        <h5>Background</h5> 
+                        <p>
+                            I graduated from UNC at Pembroke in 2012 with a bachelors in Information Technology. I began studying Front End Development a few years later while working in the IT department for the company that I have been with for the last three years. I am now looking to make the transition from IT to Front End Development as that is what I truly enjoy. And like they say, if you enjoy what you do, you never work a day in your life.   
+                        </p>
+                    </div><!-- END COL -->
+                </div><!-- END ROW -->
+            </div> <!-- END ABOUT -->
+            <div class="divider"></div>
+            <div class="section" id="contact">
+                <h5>Contact Me</h5>
+                <div class="row">
+                    <form class="formValidate col s12" id="formValidate">
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <input placeholder="First Name" id="first_name">
+                            </div>
+                            <div class="input-field col s6">
+                                <input placeholder="Last Name" id="last_name" type="text" class="validate">
+                            </div>
+                            <div class="input-field col s12">
+                                <input placeholder="Email Address" id="email" type="email" class="validate">
+                            </div>
+                            <div class="input-field col s12">
+                                <textarea placeholder="Tell me what you want, what you really really want." id="emailText" class="materialize-textarea"></textarea>
+                            </div>
+                            <a class="waves-effect wave-light btn" id="contactButton">Submit</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <footer class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col sm12 m12 l6 xl6">
+                    <h6>Find Me</h6>
+                    <div>
+                        <a href="#"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a>
+                        <a class="btn btn-floating pulse" href=""><img class="responsive-img" src=""></a>
+                        <a class="btn btn-floating pulse" href=""><img class="responsive-img" src=""></a>
+
+                    </div>
+                    </div>
+                    <div class="col sm12 m12 l6 xl6">
+
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="footer-copyright">
+            <div class="container">
+                &copy; 2017 Jaycen Milling. Powered by Awesomeness.
+            </div>
+        </div>
+        <!--Import jQuery before materialize.js-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+    </body>
+
+</html>
