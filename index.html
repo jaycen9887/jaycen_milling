@@ -23,13 +23,14 @@
     </head>
     <body>
         <header>
+            <h5>Jaycen Milling</h5>
             <ul>
                 <li class="left"><a href="#about">About</a></li>
                 <li class="left"><a href="#projects">Projects</a></li>
                 <li class="left"><a href="#contact">Contact</a></li>
             </ul>
         </header>
-        <div class="container">
+        <div class="container clearfix">
             <div class="divider"></div>
             <div class="section" id="head">
                 <div class="row">
@@ -113,13 +114,13 @@
             <div class="section" id="contact">
                 <h5>Contact Me</h5>
                 <div class="row">
-                    <form class="formValidate col s12" id="formValidate">
+                    <form method="post" enctype="text/plain" class="formValidate col s12" id="formValidate">
                         <div class="row">
                             <div class="input-field col s6">
-                                <input placeholder="First Name" id="first_name">
+                                <input type="text" placeholder="First Name" id="first_name">
                             </div>
                             <div class="input-field col s6">
-                                <input placeholder="Last Name" id="last_name" type="text" class="validate">
+                                <input type="text" placeholder="Last Name" id="last_name" type="text" class="validate">
                             </div>
                             <div class="input-field col s12">
                                 <input placeholder="Email Address" id="email" type="email" class="validate">
@@ -127,7 +128,8 @@
                             <div class="input-field col s12">
                                 <textarea placeholder="Tell me what you want, what you really really want." id="emailText" class="materialize-textarea"></textarea>
                             </div>
-                            <a class="waves-effect wave-light btn" id="contactButton">Submit</a>
+                            <input id="contactButton" type="submit" name="submit" value="Submit">
+                            <!--<a class="waves-effect wave-light btn" id="contactButton">Submit</a>-->
                         </div>
                     </form>
                 </div>
@@ -140,12 +142,10 @@
                     <div class="col sm12 m12 l6 xl6">
                     <h6>Find Me</h6>
                     <div>
-                        <a href="#"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a>
-                        <a class="btn btn-floating pulse" href=""><img class="responsive-img" src=""></a>
-                        <a class="btn btn-floating pulse" href=""><img class="responsive-img" src=""></a>
+                        <a href="https://www.facebook.com/eathrome"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/jaycen_etm"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+                        <a href="https://www.linkedin.com/in/jaycen-milling-2b7a8851/"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+                        <a href="https://github.com/jaycen9887"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a>
 
                     </div>
                     </div>
